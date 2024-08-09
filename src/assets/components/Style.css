@@ -1,0 +1,85 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box {
+  background-color: #f4f9f9ed;
+  height: 200px;
+  width: 180px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 110px;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  color: rgb(15, 15, 15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+  margin: 0px;
+}
+
+#tile-btn {
+  background-color: orange;
+  font-size: 1.5rem;
+  height: 50px;
+  width: 200px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.result {
+  height: 100vh;
+  width: 100vw;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(172, 223, 223);
+}
+
+#play-btn {
+  width: 350px;
+  height: 50px;
+  background-color: orange;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#play-btn:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.restart-btn {
+  background-color: #55efc4;
+  height: 50px;
+  width: 200px;
+  font-size: 2rem;
+  font-weight: bolder;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.restart-btn:hover {
+  background-color: rgb(21, 21, 21);
+  color: rgb(246, 241, 241);
+}
