@@ -35,7 +35,6 @@ const Game = () => {
         return num[a];
       }
     }
-    return false;
   };
 
   let result = checkWinner();
@@ -48,7 +47,7 @@ const Game = () => {
     <div className="container">
       {result ? (
         <div className="result">
-          <h1>Congratulation {condition ? "X" : "0"} :You win</h1>{" "}
+          <h1>Congratulation {condition ? "0" : "X"} :You win</h1>{" "}
           <button id="play-btn" onClick={playAgain}>
             Play Again
           </button>
